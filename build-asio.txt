@@ -1,0 +1,10 @@
+buildah bud -f rpm-builder.Dockerfile -t centos-builer .
+podman run -it --rm -v .:/workdir -v /tmp:/hosttemp centos-builder
+cd /workdir
+rpmbuild --rebuild ./asio-1.10.8-10.fc31.src.rpm
+..wait..
+Next line is close to right...
+cd ~/rpmbuild/rpms/x86
+cd . /hosttemp/.
+exit
+cp /tmp/*.rpm .
