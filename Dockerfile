@@ -14,7 +14,10 @@ RUN dnf -y install gcc-c++ \
 RUN dnf -y install eigen3-devel \
                     patch \
                     tinyxml-devel \
-                    tinyxml2-devel
+                    tinyxml2-devel \
+                    pcre-devel \
+                    file \
+                    python3-devel
 
 WORKDIR /tmp
 COPY asio-devel-1.10.8-10.el8.x86_64.rpm asio-devel-1.10.8-10.el8.x86_64.rpm
