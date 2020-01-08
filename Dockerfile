@@ -44,10 +44,11 @@ RUN pip3 install --upgrade \
                     pytest \
                     pytest-cov \
                     pytest-runner \
-                    setuptools
+                    setuptools \
+                    lark-parser
 
 RUN mkdir -p /ros/src
 WORKDIR /ros
-COPY ros2.repos .
-RUN vcs import src < ros2.repos
+COPY dashing-base.rosinstall .
+RUN vcs import src < dashing-base.rosinstall
 RUN colcon build
