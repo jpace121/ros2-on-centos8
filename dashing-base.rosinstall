@@ -1,0 +1,229 @@
+- git:
+    local-name: ament_cmake
+    uri: https://github.com/ament/ament_cmake.git
+    version: 0.7.4
+- git:
+    local-name: ament_cmake_ros
+    uri: https://github.com/ros2/ament_cmake_ros.git
+    version: 0.7.0
+- git:
+    local-name: ament_index
+    uri: https://github.com/ament/ament_index.git
+    version: 0.7.2
+- git:
+    local-name: ament_lint
+    uri: https://github.com/ament/ament_lint.git
+    version: 0.7.11
+- git:
+    local-name: ament_package
+    uri: https://github.com/ament/ament_package.git
+    version: 0.7.3
+- git:
+    local-name: class_loader
+    uri: https://github.com/ros/class_loader.git
+    version: 1.3.2
+- git:
+    local-name: common_interfaces
+    uri: https://github.com/ros2/common_interfaces.git
+    version: 0.7.0
+- git:
+    local-name: console_bridge_vendor
+    uri: https://github.com/ros2/console_bridge_vendor.git
+    version: 1.2.0
+- git:
+    local-name: eigen3_cmake_module
+    uri: https://github.com/ros2/eigen3_cmake_module.git
+    version: 0.1.1
+- git:
+    local-name: fastcdr
+    uri: https://github.com/eProsima/Fast-CDR.git
+    version: 1.0.11
+- git:
+    local-name: fastrtps
+    uri: https://github.com/eProsima/Fast-RTPS.git
+    version: 1.8.2
+- git:
+    local-name: geometry2
+    uri: https://github.com/ros2/geometry2.git
+    version: 0.11.6
+- git:
+    local-name: googletest
+    uri: https://github.com/ament/googletest.git
+    version: 1.8.9000
+- git:
+    local-name: kdl_parser
+    uri: https://github.com/ros2/kdl_parser.git
+    version: 2.2.0
+- git:
+    local-name: launch
+    uri: https://github.com/ros2/launch.git
+    version: 0.8.7
+- git:
+    local-name: launch_ros
+    uri: https://github.com/ros2/launch_ros.git
+    version: 0.8.7
+- git:
+    local-name: libyaml_vendor
+    uri: https://github.com/ros2/libyaml_vendor.git
+    version: 1.0.0
+- git:
+    local-name: message_filters
+    uri: https://github.com/ros2/message_filters.git
+    version: 3.1.3
+- git:
+    local-name: orocos_kinematics_dynamics
+    uri: https://github.com/ros2/orocos_kinematics_dynamics.git
+    version: 3.2.1
+- git:
+    local-name: osrf_pycommon
+    uri: https://github.com/osrf/osrf_pycommon.git
+    version: 0.1.9
+- git:
+    local-name: osrf_testing_tools_cpp
+    uri: https://github.com/osrf/osrf_testing_tools_cpp.git
+    version: 1.2.1
+- git:
+    local-name: pluginlib
+    uri: https://github.com/ros/pluginlib.git
+    version: 2.3.3
+- git:
+    local-name: poco_vendor
+    uri: https://github.com/ros2/poco_vendor.git
+    version: 1.2.0
+- git:
+    local-name: rcl
+    uri: https://github.com/ros2/rcl.git
+    version: 0.7.8
+- git:
+    local-name: rcl_interfaces
+    uri: https://github.com/ros2/rcl_interfaces.git
+    version: 0.7.4
+- git:
+    local-name: rcl_logging
+    uri: https://github.com/ros2/rcl_logging.git
+    version: 0.2.1
+- git:
+    local-name: rclcpp
+    uri: https://github.com/ros2/rclcpp.git
+    version: 0.7.12
+- git:
+    local-name: rclpy
+    uri: https://github.com/ros2/rclpy.git
+    version: 0.7.10
+- git:
+    local-name: rcpputils
+    uri: https://github.com/ros2/rcpputils.git
+    version: 0.1.1
+- git:
+    local-name: rcutils
+    uri: https://github.com/ros2/rcutils.git
+    version: 0.7.5
+- git:
+    local-name: rmw
+    uri: https://github.com/ros2/rmw.git
+    version: 0.7.2
+- git:
+    local-name: rmw_connext
+    uri: https://github.com/ros2/rmw_connext.git
+    version: 0.7.4
+- git:
+    local-name: rmw_fastrtps
+    uri: https://github.com/ros2/rmw_fastrtps.git
+    version: 0.7.6
+- git:
+    local-name: rmw_implementation
+    uri: https://github.com/ros2/rmw_implementation.git
+    version: 0.7.2
+- git:
+    local-name: rmw_opensplice
+    uri: https://github.com/ros2/rmw_opensplice.git
+    version: 0.7.3
+- git:
+    local-name: robot_state_publisher
+    uri: https://github.com/ros/robot_state_publisher.git
+    version: 2.2.5
+- git:
+    local-name: ros2cli
+    uri: https://github.com/ros2/ros2cli.git
+    version: 0.7.9
+- git:
+    local-name: ros_environment
+    uri: https://github.com/ros/ros_environment.git
+    version: 2.3.0
+- git:
+    local-name: rosidl
+    uri: https://github.com/ros2/rosidl.git
+    version: 0.7.8
+- git:
+    local-name: rosidl_dds
+    uri: https://github.com/ros2/rosidl_dds.git
+    version: 0.7.1
+- git:
+    local-name: rosidl_defaults
+    uri: https://github.com/ros2/rosidl_defaults.git
+    version: 0.7.0
+- git:
+    local-name: rosidl_python
+    uri: https://github.com/ros2/rosidl_python.git
+    version: 0.7.10
+- git:
+    local-name: rosidl_typesupport
+    uri: https://github.com/ros2/rosidl_typesupport.git
+    version: 0.7.1
+- git:
+    local-name: rosidl_typesupport_connext
+    uri: https://github.com/ros2/rosidl_typesupport_connext.git
+    version: 0.7.3
+- git:
+    local-name: rosidl_typesupport_fastrtps
+    uri: https://github.com/ros2/rosidl_typesupport_fastrtps.git
+    version: 0.7.1
+- git:
+    local-name: rosidl_typesupport_opensplice
+    uri: https://github.com/ros2/rosidl_typesupport_opensplice.git
+    version: 0.7.3
+- git:
+    local-name: sros2
+    uri: https://github.com/ros2/sros2.git
+    version: 0.7.1
+- git:
+    local-name: test_interface_files
+    uri: https://github.com/ros2/test_interface_files.git
+    version: 0.7.1
+- git:
+    local-name: tinydir_vendor
+    uri: https://github.com/ros2/tinydir_vendor.git
+    version: 1.1.0
+- git:
+    local-name: tinyxml2_vendor
+    uri: https://github.com/ros2/tinyxml2_vendor.git
+    version: 0.6.1
+- git:
+    local-name: tinyxml_vendor
+    uri: https://github.com/ros2/tinyxml_vendor.git
+    version: 0.7.0
+- git:
+    local-name: uncrustify_vendor
+    uri: https://github.com/ament/uncrustify_vendor.git
+    version: 1.2.0
+- git:
+    local-name: unique_identifier_msgs
+    uri: https://github.com/ros2/unique_identifier_msgs.git
+    version: 2.1.0
+- git:
+    local-name: urdf
+    uri: https://github.com/ros2/urdf.git
+    version: 2.2.0
+- git:
+    local-name: urdfdom
+    uri: https://github.com/ros2/urdfdom.git
+    version: 2.2.0
+- git:
+    local-name: urdfdom_headers
+    uri: https://github.com/ros/urdfdom_headers.git
+    version: 1.0.4
+- git:
+    local-name: variants
+    uri: https://github.com/ros2/variants.git
+    version: 0.7.3
+
